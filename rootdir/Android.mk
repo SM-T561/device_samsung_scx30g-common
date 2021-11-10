@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(my-dir)
+LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := fstab.sc8830
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)
-LOCAL_SRC_FILES := $(LOCAL_MODULE)
+LOCAL_SRC_FILES := etc/fstab.sc8830
 include $(BUILD_PREBUILT)

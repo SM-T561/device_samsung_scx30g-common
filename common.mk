@@ -17,4 +17,4 @@ $(call inherit-product, device/samsung/scx35-common/common.mk)
 
 # Rootdir
 PRODUCT_PACKAGES += \
-	fstab.sc8830
+    fstab.sc8830
